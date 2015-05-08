@@ -16,6 +16,8 @@
 - Relies on pre-processed styles with SCSS
 - Responsive design with fluid interchanges and animations
 - Consistent UX with Google Material
+- Dynamic loader with two meters: buffer and data (simulated)
+- Realtime form validation
 
 _To check tasks to be done, check the `TODO.md` file_
 

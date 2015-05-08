@@ -10,10 +10,15 @@
   <form name="userForm" ng-submit="submit()" novalidate>
     <md-input-container flex>
       <label>Email</label>
-      <input name="userEmail" type="email" required="" ng-model="user.email">
+      <input
+        name="userEmail"
+        type="email"
+        required=""
+        ng-model="user.email"
+        ng-pattern="/^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i">
 
       <div class="error" ng-messages="userForm.userEmail.$error">
-        <div ng-show="userForm.userEmail.$error.email">Invalid email format. Expected: a@b.com</div>
+        <div ng-show="userForm.userEmail.$error.pattern">Invalid email format. Expected: a@b.com</div>
       </div>
     </md-input-container>
 
