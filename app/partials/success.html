@@ -1,0 +1,17 @@
+<!-- Main view -->
+<div class="g--half g--centered success-screen">
+  <img class="done" src="images/icons/ic_done_48px.svg">
+  <p>Thank you {{user.email}}!</p>
+  <p>You have logged {{user.submissionTimeParsed | date : 'HH'}} <strong>hour(s)</strong> and {{user.submissionTimeParsed | date : 'mm'}} <strong>minute(s)</strong></p>
+</div>
+
+<!-- Custom sub-view footer -->
+<footer>
+  <div class="control control-left">
+    <md-button class="md-raised" ng-click="goTo('/')">Back</md-button>
+  </div>
+  <div class="control control-middle"></div>
+  <div class="control control-right">
+    <md-button class="md-raised" ng-click="restart()">Start Again</md-button>
+  </div>
+</footer>
