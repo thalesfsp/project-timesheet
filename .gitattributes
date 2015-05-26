@@ -1,6 +1,8 @@
 * text=auto
 
 # Git specific
+.travis.yml export-ignore
+.scss-lint.yml export-ignore
 .gitattributes export-ignore
 .gitignore export-ignore
 .bowerrc export-ignore
@@ -22,6 +24,7 @@ tasks export-ignore
 # Files
 README.md export-ignore
 LICENSE.md export-ignore
+LICENSE export-ignore
 CHANGELOG.md export-ignore
 TODO.md export-ignore
 bower.json export-ignore
