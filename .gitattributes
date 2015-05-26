@@ -1,2 +1,30 @@
 * text=auto
+
+# Git specific
+.gitattributes export-ignore
+.gitignore export-ignore
+.bowerrc export-ignore
+.editorconfig export-ignore
+.htmlhintrc export-ignore
+.jsbeautifyrc export-ignore
+.jscsrc export-ignore
+.jshintrc export-ignore
+.scss-lint export-ignore
+
+# Directories
+app export-ignore
+docs export-ignore
+coverage export-ignore
+lib export-ignore
+node_modules export-ignore
+tasks export-ignore
+
+# Files
+README.md export-ignore
+LICENSE.md export-ignore
+CHANGELOG.md export-ignore
+TODO.md export-ignore
+bower.json export-ignore
+package.json export-ignore
+gulpfile.js export-ignore
 CONTRIBUTING.md export-ignore
